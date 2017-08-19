@@ -17,3 +17,11 @@ CMD /bin/sh
 # 5. Run the image with a specific name
 # docker run -it --name my-first-container basic-docker:latest /bin/sh
 
+# 6. Run another copy of the shell in another window
+# docker exec -it my-first-container /bin/sh
+# add files and see them show up in other folder
+
+# 7. stop the service (control-c)
+
+# 8. Restart the service 
+
